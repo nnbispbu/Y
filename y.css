@@ -1,0 +1,71 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-width: 100vh;
+    background-image: url('bumi\ 8.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: 20%;
+}
+
+.wrapper {
+    width: 300px;
+    background: transparent;
+    border: 2px solid rgba(255, 255, 255, .2);
+    backdrop-filter: blur(2px);
+    color: #fff;
+    border-radius: 10px;
+    padding: 30px 40px;
+    text-align: center;
+}
+
+.wrapper h1 {
+    font-size: 30px;
+    text-align: justify;
+}
+
+.wrapper .input-box {
+    width: 50%;
+    height: 50%;
+    margin: 10px;
+}
+
+.input-box input {
+    width: 50%;
+    height: 50%;
+    background: transparent;
+    border: none;
+    outline: none;
+    border: 2px solid r gba(red, green, blue, alpha);
+    border-radius: 40px;
+    color: aliceblue;
+    padding: 20px 45px 20px 20px;
+}
+
+.input-box input::placeholder {
+    color: antiquewhite;
+}
+
+.input-box i {
+    position: absolute;
+    right: 20px;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 20px;
+}
+
+.wrapper .btn {
+    width: 100px;
+    height: 30px;
+    background: #fff;
+    border: none;
+    outline: none;
+    text-align: center;
+    box-shadow: 0 0 10px rgba(red, green, blue, alpha);
+    cursor: pointer;
+    font-size: 15px;
+    color: #333;
+    font-weight: 600;
+}
